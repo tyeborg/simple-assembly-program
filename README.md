@@ -1,5 +1,9 @@
 # A Simple Assembly Program Using NASM
 
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/tyeborg/simple-assembly-program)
+![GitHub top language](https://img.shields.io/github/languages/top/tyeborg/simple-assembly-program)
+![GitHub last commit](https://img.shields.io/github/last-commit/tyeborg/simple-assembly-program)
+
 The objective of this project is to write a simple assembly program and compile it to run on the computer. For this project, the Linux Azure Labs machine was utilized.
 
 ## Running the Assembly Program
