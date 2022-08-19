@@ -124,9 +124,9 @@ end:
 6. To build and run the program perform the following on the commands:
 
 ```bash
-student@pc:~/simple-assembly-program$ nasm -f elf32 assembly-program.asm
-student@pc:~/simple-assembly-program$ gcc -m32 assembly-program.o
-student@pc:~/simple-assembly-program$ ./a.out
+$ nasm -f elf32 assembly-program.asm
+$ gcc -m32 assembly-program.o
+$ ./a.out
 ```
 
 ## Assembly Code Explaination
@@ -152,6 +152,6 @@ There is quite a bit of code to explain, so let's start at the top:
 * **Logic**: `Excellent` (Program logic is correct with no known boundary errors, and no redundant or contradictory conditions.)
 * **Clarity**: `Excellent` (Program contains appropriate documentation for all major functions, variables, or non-trivial algorithms. Formatting, indentation, and other white space aids readability.)
 * **Robustness**: `Excellent` (Program handles erroneous input gracefully; action is taken without surprising the user. Boundary cases are considered and tested.)
-* Submission: `Excellent` (Correct files submitted only and with correct names.)
+* **Submission**: `Excellent` (Correct files submitted only and with correct names.)
 
 **Grade**: 100.00 / 100.00
