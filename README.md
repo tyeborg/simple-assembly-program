@@ -143,3 +143,15 @@ There is quite a bit of code to explain, so let's start at the top:
     * `equ` declares a constant value. $ represents the current memory position in the assembly, so `$ - msg`, where `msg` is the memory address where our string was declared, tells us how long the message is in bytes.
 
 **These are simple operations that can be reused to perform these printing and program exit operations.**
+
+## Project Evaluation
+
+* **Syntax**: `Excellent` (Program compiles and contains no evidence of misunderstanding or misinterpreting the syntax of the language)
+* **Solution**: `Excellent` (A completed solution meeting all the specifications.)
+* **Correctness**: `Excellent` (Program produces correct answers or appropriate results for all inputs tested)
+* **Logic**: `Excellent` (Program logic is correct with no known boundary errors, and no redundant or contradictory conditions.)
+* **Clarity**: `Excellent` (Program contains appropriate documentation for all major functions, variables, or non-trivial algorithms. Formatting, indentation, and other white space aids readability.)
+* **Robustness**: `Excellent` (Program handles erroneous input gracefully; action is taken without surprising the user. Boundary cases are considered and tested.)
+* Submission: `Excellent` (Correct files submitted only and with correct names.)
+
+**Grade**: 100.00 / 100.00
