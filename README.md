@@ -6,14 +6,24 @@
 
 The objective of this project is to write a simple assembly program and compile it to run on the computer. For this project, the Linux Azure Labs machine was utilized.
 
+### Project Code Requirements:
+* Your assembly code must prompt the user to enter a choice out of four possible choices (`1`, `2`, `3`, or `q`).
+* The program should continue prompting the user to enter choices until `q` is entered.
+    * Choice `1` displays `Welcome to my assembly program` onto the terminal.
+    * Choice `2` displays `The second choice` onto the terminal.
+    * Choice `3` displays `The last choice` onto the terminal.
+    * Choice `q` displays `Goodbye` onto the terminal and ultimately ends the program.
+* Add program precautions/account for erroneous input from the user.
+
+
 ## Running the Assembly Program
 
-1. Run Linux Azure Labs virtual machine (only if you are not using a Linux operating system).
-2. Open PowerShell and choose your desired directory for storage purposes (add a subdirectory if you deem necessary).
-3. Use nano to enter the following file: `assembly-program.asm`
+1. Run Linux Azure Labs virtual machine if you are not using a Linux operating system.
+2. Open PowerShell and choose your desired location/directory.
+3. Use `nano` to enter the following file: `assembly-program.asm`
 
 ```bash
-nano assembly-program.asm
+$ nano assembly-program.asm
 ```
 
 4. Copy and paste the following assembly code into the newly created file [assembly-program.asm]:
@@ -120,7 +130,7 @@ end:
     int 0x80                                             ; call the operating system
 ```
 
-5. Save the program and exit nano
+5. Save the program and exit nano.
 6. To build and run the program perform the following on the commands:
 
 ```bash
