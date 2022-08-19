@@ -6,13 +6,13 @@
 
 The objective of this project is to write a simple assembly program and compile it to run on the computer. For this project, the Linux Azure Labs machine was utilized.
 
-### Project Code Requirements:
+**Project Code Requirements**:
 * Your assembly code must prompt the user to enter a choice out of four possible choices (`1`, `2`, `3`, or `q`).
 * The program should continue prompting the user to enter choices until `q` is entered.
-    * Choice `1` displays `Welcome to my assembly program` onto the terminal.
-    * Choice `2` displays `The second choice` onto the terminal.
-    * Choice `3` displays `The last choice` onto the terminal.
-    * Choice `q` displays `Goodbye` onto the terminal and ultimately ends the program.
+    * `1` displays `Welcome to my assembly program` onto the terminal.
+    * `2` displays `The second choice` onto the terminal.
+    * `3` displays `The last choice` onto the terminal.
+    * `q` displays `Goodbye` onto the terminal and ultimately ends the program.
 * Add program precautions/account for erroneous input from the user.
 
 
