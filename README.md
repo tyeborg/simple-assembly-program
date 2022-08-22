@@ -158,6 +158,16 @@ There is quite a bit of code to explain, so let's start at the top:
 * In the `.data` section we declare any values, such as our message, `msg`, to print and its length, `len`.
     * `db` means *Declare Bytes*. The NASM assembler will convert the text into bytes for us. `0xa`, hexidecimal for 10, is a line feed in ASCII.
     * `equ` declares a constant value. $ represents the current memory position in the assembly, so `$ - msg`, where `msg` is the memory address where our string was declared, tells us how long the message is in bytes.
+    
+| Operation   |  Operands   |  Description  |  Example  |
+|   :----:    |    :----:   |     :----:    |  :----:   |
+|`cmp`        |*destination, source*             |Compares the destination and source setting flags inside the processor based on the outcome of the comparison.               |`cmp eax, ebx`           |
+|`jmp`             |*label*             |Jumps to the label in the program.               |`jmp LOOP`           |
+|`je`             |*label*             |Jumps if the compared values were equal.               |`je LOOP`           |
+|`jz`             |*label*             |Jumps if the last operation led to zero result.               |`jz LOOP`           |
+|`jg`             |*label*             |Jumps if the *destination* was greater than *source* in the comparison.               |`jg LOOP`           |
+|`jge`             |*label*             |Jumps if the destination was greater than or equal to source in the comparison.               |`jge LOOP`           |
+|`jl`             |*label*             |Jumps if the destination was less than the source in the comparison.               |`jl LOOP`           |
 
 **These are simple operations that can be reused to perform these printing and program exit operations.**
 
