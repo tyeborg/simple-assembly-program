@@ -160,7 +160,7 @@ There is quite a bit of code to explain, so let's start at the top:
     * `equ` declares a constant value. $ represents the current memory position in the assembly, so `$ - msg`, where `msg` is the memory address where our string was declared, tells us how long the message is in bytes.
     
 | Operation   |  Operands   |  Description  |  Example  |
-|   :----:    |    :----:   |     :---      |  :----:   |
+|   :----:    |    :----:   |     ---       |  :----:   |
 |`cmp`        |*destination, source*             |Compares the destination and source setting flags inside the processor based on the outcome of the comparison.               |`cmp eax, ebx`           |
 |`jmp`             |*label*             |Jumps to the label in the program.               |`jmp LOOP`           |
 |`je`             |*label*             |Jumps if the compared values were equal.               |`je LOOP`           |
