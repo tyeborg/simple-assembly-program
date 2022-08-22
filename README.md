@@ -15,6 +15,13 @@ The objective of this project is to write a simple assembly program and compile 
     * `q` displays `Goodbye` onto the terminal and ultimately ends the program.
 * Add program precautions/account for erroneous input from the user.
 
+## Languages & Tools Utilized
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/96035297/186022424-f96144ad-7b39-4add-a0dc-3c0ec400124f.png" height="50" width="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="50" width="50" /> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="50" width="50" />
+</p>
 
 ## Running the Assembly Program
 
