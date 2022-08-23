@@ -23,6 +23,12 @@ The objective of this project is to write a simple assembly program and compile 
   <img src="https://user-images.githubusercontent.com/96035297/186023583-c38342aa-6d47-4fda-967a-5844b40c7dd3.png" height="50" width="50" />
 </p>
 
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=asm,vscode,linux" />
+  </a>
+</p>
+
 ## Running the Assembly Program
 
 1. Run Linux Azure Labs virtual machine if you are not using a Linux operating system.
