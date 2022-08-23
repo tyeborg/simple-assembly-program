@@ -19,12 +19,6 @@ The objective of this project is to write a simple assembly program and compile 
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/96035297/186022424-f96144ad-7b39-4add-a0dc-3c0ec400124f.png" height="50" width="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="50" width="50" /> 
-  <img src="https://user-images.githubusercontent.com/96035297/186023583-c38342aa-6d47-4fda-967a-5844b40c7dd3.png" height="50" width="50" />
-</p>
-
-<p float="left">
-  <img src="https://user-images.githubusercontent.com/96035297/186022424-f96144ad-7b39-4add-a0dc-3c0ec400124f.png" height="50" width="50" />
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=linux,powershell" />
   </a>
@@ -33,7 +27,7 @@ The objective of this project is to write a simple assembly program and compile 
 ## Running the Assembly Program
 
 1. Run Linux Azure Labs virtual machine if you are not using a Linux operating system.
-2. Open PowerShell and choose your desired location/directory.
+2. Open a terminal/command prompt in PowerShell and navigate to the folder in which you'd like to create the program.
 3. Use `nano` to enter the following file: `assembly-program.asm`
 
 ```bash
