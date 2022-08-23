@@ -23,9 +23,10 @@ The objective of this project is to write a simple assembly program and compile 
   <img src="https://user-images.githubusercontent.com/96035297/186023583-c38342aa-6d47-4fda-967a-5844b40c7dd3.png" height="50" width="50" />
 </p>
 
-<p align="center">
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/96035297/186022424-f96144ad-7b39-4add-a0dc-3c0ec400124f.png" height="50" width="50" />
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=asm,vscode,linux" />
+    <img src="https://skillicons.dev/icons?i=linux,powershell" />
   </a>
 </p>
 
